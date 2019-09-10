@@ -176,12 +176,10 @@ export default class Renderer {
                 const indices = primitive.indices;
                 const offset = indices.byteOffset / COMPONENT.SIZE[indices.componentType];
 
-                this.gl.drawElements(this.gl.TRIANGLES, indices.count, indices.componentType, offset);
+                this.gl.drawElements(primitive.mode, indices.count, indices.componentType, offset);
 
             } else {
-
-                this.gl.drawArrays(this.gl.TRIANGLES, 0, primitive.attributes.POSITION.count / 3);
-
+                this.gl.drawArrays(primitive.mode, 0, primitive.attributes.POSITION.count / 3);
             }
 
         }
