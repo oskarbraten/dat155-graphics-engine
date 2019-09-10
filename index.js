@@ -17,11 +17,12 @@ export { default as CubeMapMaterial } from './src/materials/CubeMapMaterial.js';
 
 export { default as PerspectiveCamera } from './src/camera/PerspectiveCamera.js';
 
+import { default as from } from './src/primitives/from.js';
 import { default as createPlane } from './src/primitives/createPlane.js';
 import { default as createBox } from './src/primitives/createBox.js';
 import { default as createSphere } from './src/primitives/createSphere.js';
 
-export const Primitives = { createPlane, createBox, createSphere };
+export const Primitives = { from, createPlane, createBox, createSphere };
 
 export {
     glMatrix,
