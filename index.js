@@ -9,6 +9,9 @@ export { default as Scene } from './src/Scene.js';
 export { default as Mesh } from './src/mesh/Mesh.js';
 export { default as Light } from './src/light/Light.js';
 
+export { default as Shader } from './src/materials/Shader.js';
+export { default as Material } from './src/materials/Material.js';
+
 export { default as BasicMaterial } from './src/materials/BasicMaterial.js';
 export { default as CubeMapMaterial } from './src/materials/CubeMapMaterial.js';
 
