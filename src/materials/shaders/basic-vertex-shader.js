@@ -16,4 +16,5 @@ uniform mat4 modelViewProjectionMatrix;
 void main() {
 	fTextureCoordinate = TEXCOORD_0;
     gl_Position = modelViewProjectionMatrix * POSITION;
+    gl_PointSize = 10.0;
 }`;
