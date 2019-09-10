@@ -19,8 +19,9 @@ export { default as PerspectiveCamera } from './src/camera/PerspectiveCamera.js'
 
 import { default as createPlane } from './src/primitives/createPlane.js';
 import { default as createBox } from './src/primitives/createBox.js';
+import { default as createSphere } from './src/primitives/createSphere.js';
 
-export const Primitives = { createPlane, createBox };
+export const Primitives = { createPlane, createBox, createSphere };
 
 export {
     glMatrix,
