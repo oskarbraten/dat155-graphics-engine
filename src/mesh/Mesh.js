@@ -1,4 +1,4 @@
-import Primitive from './primitive.js';
+import Primitive from './Primitive.js';
 import { vec3 } from '../../lib/gl-matrix/src/index.js';
 
 import Node from '../Node.js';
