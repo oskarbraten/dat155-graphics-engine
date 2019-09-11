@@ -1,4 +1,4 @@
-import { getMinMax } from '../primitives/common.js';
+import Primitive from './primitive.js';
 import { vec3 } from '../../lib/gl-matrix/src/index.js';
 
 import Node from '../Node.js';
@@ -45,7 +45,7 @@ export default class Mesh extends Node {
             vertices.push(...max);
         }
 
-        this.localBoundingBox = getMinMax(vertices);
+        this.localBoundingBox = Primitive.getMinMax(vertices);
 
     }
     

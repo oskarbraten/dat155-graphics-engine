@@ -50,3 +50,5 @@ export const ATTRIBUTE = Object.freeze({
 export const BINDING = Object.freeze({
     LIGHT: 0
 });
+
+export const IS_LITTLE_ENDIAN = new Uint8Array(new Uint32Array([0x12345678]).buffer)[0] === 0x78;
