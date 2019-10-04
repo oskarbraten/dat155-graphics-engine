@@ -14,6 +14,7 @@ export { default as Light } from './src/light/Light.js';
 export { default as Shader } from './src/materials/Shader.js';
 export { default as Material } from './src/materials/Material.js';
 
+export { default as PhongMaterial } from './src/materials/PhongMaterial.js';
 export { default as BasicMaterial } from './src/materials/BasicMaterial.js';
 export { default as CubeMapMaterial } from './src/materials/CubeMapMaterial.js';
 
